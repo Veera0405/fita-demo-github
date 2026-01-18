@@ -1,0 +1,19 @@
+# Variables & Data Types (Strings, Integers)
+name = "Alice"
+age = 30
+print(f"Hello, {name}! You are {age} years old.") # f-string for easy formatting
+
+# Functions (Reusable code blocks)
+def greet(person_name):
+    return f"Hi, {person_name}!"
+
+print(greet("Bob"))
+
+# Lists & Loops (Data structures & iteration)
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print(fruit.upper()) # Prints APPLE, BANANA, CHERRY
+
+# List Comprehension (Concise list creation)
+loud_fruits = [fruit.upper() for fruit in fruits]
+print(loud_fruits) # Output: ['APPLE', 'BANANA', 'CHERRY']
